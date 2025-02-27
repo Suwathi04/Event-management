@@ -52,21 +52,65 @@
            </div>
         </nav>
     </header>
-    <section class="hero text-white">
+    <section class="hero pt-5 text-white">
         <div class="container ">
             <div class="row">
-                <div class="col-sm-4">
+                <div class="col-sm-8">
                     <div class="mt-5">
-                        <img src="images/logo.png" width="200" alt="logo">
+                        <img src="images/logo.png" width="100" alt="logo">
+                        <img src="images/logo.png" width="100" alt="logo">
+                        <img src="images/logo.png" width="100" alt="logo">
                         <h2> Is your events are pleasent...?</h2>
                         <p class="leading">Here we are doing the best events for you ...!</p>
 
                     </div>
                 </div>
-                <div class="col-sm-8">
+                <div class="col-sm-4">
                     <div class="card">
+                        <div class="card-body">
+                            <form action="/" method="post">
+                                <div class="form-row">
+                                    <div class="col text-dark">
+                                        <div class="form-group mb-3">
+                                            <label for="fullname" class="form-label">Full Name</label>
+                                            <input type="text" class="form-control" name="fullname" id="" placeholder="Enter Your Name">
+                                        </div>
+                                        <div class="form-group mb-3">
+                                            <label for="Contact" class="form-label">Contact No</label>
+                                            <input type="number" class="form-control" name="contact" id="contact" placeholder="Enter Your Number">
+                                        </div>
+                                        <div class="form-group mb-3">
+                                            <label for="Location" class="form-label">Location</label>
+                                            <input type="text" class="form-control" name="Location" id="Location" placeholder="Enter Your Location">
+                                        </div>
+                                        <div class="form-group mb-3">
+                                            <label for="Email" class="form-label">E-mail</label>
+                                            <input type="email" class="form-control" name="Email" id="Email" placeholder="Enter Your E-mail">
+                                        </div>
+                                        <div class="form-group mb-3">
+                                            <label for="event-mode" class="form-label">Select Event Type</label>
+                                            <select name="event-mode" class="form-control" id="" >
+                                                <option value=""></option>
+                                                <option value="">Wedding</option>
+                                                <option value="">Reception</option>
+                                                <option value="">Birthday</option>
+                                                <option value="">Farewell</option>
+                                                <option value="">Official</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <button type="submit" class="form-control btn-primary" >
+                                                Register
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
 
+                            </form>
+                        </div>
+                    <!-- form -->
                     </div>
+                      
                 </div>
             </div>
         </div>
