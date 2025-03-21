@@ -1,0 +1,16 @@
+
+
+
+
+
+
+.card img:hover{
+    width: 18.3rem;
+    
+    animation-delay: 20s;
+}
+
+footer{
+    height: 200px;
+    background-color: rgb(210, 183, 183);
+}
