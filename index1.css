@@ -1,7 +1,6 @@
 
 .card img:hover{
     width: 18.3rem;
-    
     animation-delay: 20s;
 }
 
@@ -9,14 +8,7 @@ footer{
     background-color: rgb(164, 159, 159);
 }
 
-.row{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-family: cursive;
-}
-
-.mini {
+.main {
     background-color: white;
     padding: 15px;
     line-height: 1.7;
@@ -24,49 +16,17 @@ footer{
     box-shadow:  10px 10px 0 0 rgb(85, 85, 85);
 }
 
-.mini h4 {
-    display: inline-block;
-}
-
-.mini p {
-    margin: 20px;
-    text-align: justify;
-    color: rgb(45, 2, 86);
-}
-
-.container h3{
-    text-align: center;
-}
-
-
-.container ul li{
-    list-style-type: none;
+.widget a{
+    text-decoration: none;
     line-height: 1.7;
-    text-align: center;
+    color: black;
+    
 }
 
-.container p{
-    display: inline-block;
-    color: rgb(45, 2, 86);
-
-}
-
-.container ul li a{
+.inner a{
     text-decoration: none;
-    color: rgb(45, 2, 86);
-    font-size: 18px;
+    color: rgb(255, 255, 255);
+    
 }
 
-.bottom{
-    padding: 15px;
-}
 
-.bottom p {
-    text-align: center;
-    font-weight: 600;
-    font-size: 17px;
-}
-
-.bottom a{
-    text-decoration: none;
-}
