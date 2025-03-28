@@ -1,12 +1,25 @@
 
 .card img:hover{
     width: 18.3rem;
+    
     animation-delay: 20s;
 }
 
-footer{
+.navbar{
     background-color: rgb(164, 159, 159);
+    font-family: cursive;
+    font-weight: 650;
 }
+
+.navbar a{
+    color: white;
+}
+
+.nav-item a:hover{
+    color: black;
+
+}
+
 
 .main {
     background-color: white;
@@ -14,6 +27,11 @@ footer{
     line-height: 1.7;
     border-radius: 0px 0px 25px 25px;
     box-shadow:  10px 10px 0 0 rgb(85, 85, 85);
+}
+
+.main1{
+    display: flex;
+    justify-content: center;
 }
 
 .widget a{
@@ -26,7 +44,7 @@ footer{
 .inner a{
     text-decoration: none;
     color: rgb(255, 255, 255);
-    
+    font-weight: 600;
 }
 
 
